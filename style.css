@@ -91,7 +91,6 @@ label {
 
 /* Header style */
 header {
-  /* background-image: url('/img/diggin-for-coin.svg'); */
   background: rgb(19, 2, 29);
   background: linear-gradient(
     127deg,
@@ -143,7 +142,7 @@ section.coins img {
 
 /* cta section */
 section.cta {
-  background: url('/img/cta.jpg');
+  background: url('./img/cta.jpg');
   background-size: cover;
   color: #f0f0f0;
   padding: 4rem 0;
