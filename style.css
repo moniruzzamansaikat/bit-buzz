@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  box-shadow: 0 0 0 !important;
+  border-radius: 30px;
+  padding: 8px 2rem;
+  background-color: #fca915 !important;
+  border: 2px solid #fca915 !important;
+  color: rgb(31, 31, 31) !important;
+  font-weight: 900;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  border-color: #fca915 !important;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.btn:focus {
+  background-color: #fca915;
+  border-color: #fff;
+}
+
+section {
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 !important;
+  border: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #afafaf;
+  padding-left: 0;
+}
+
+.form-control:focus {
+  border-color: #afafaf;
+}
+
+label {
+  color: #fca915;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: transparent !important;
+}
+
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  z-index: 10000;
+}
+
+.navbar.scrolled * {
+  color: #000 !important;
+}
+
+.navbar * {
+  color: #f0f0f0 !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 2rem;
+  font-weight: bolder;
+  letter-spacing: 0px;
+}
+
+.navbar .navbar-brand span {
+  color: #fca915 !important;
+}
+
+/* Header style */
+header {
+  /* background-image: url('/img/diggin-for-coin.svg'); */
+  background: rgb(19, 2, 29);
+  background: linear-gradient(
+    127deg,
+    rgba(19, 2, 29, 1) 6%,
+    rgba(94, 15, 119, 1) 18%,
+    rgba(118, 9, 156, 1) 37%,
+    rgba(128, 33, 205, 1) 54%,
+    rgba(125, 33, 205, 1) 63%,
+    rgba(90, 29, 201, 1) 75%,
+    rgba(103, 16, 179, 1) 100%
+  );
+  min-height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: center;
+}
+
+header .content {
+  margin-top: 160px;
+}
+
+header img {
+  display: inline-block;
+  margin-top: 100px;
+  max-width: 450px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+header h1 span {
+  color: #fca915;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+/* coin section */
+section.coins img {
+  max-width: 300px;
+}
+
+/* cta section */
+section.cta {
+  background: url('/img/cta.jpg');
+  background-size: cover;
+  color: #f0f0f0;
+  padding: 4rem 0;
+}
+
+section.cta img {
+  max-width: 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+section.sponsors img {
+  display: inline-block;
+  margin: 10px 0;
+  max-width: 130px;
+}
+
+/* Contact secion */
+section#contact p {
+  margin: 1.2rem 0;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+section#contact img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+section#contact a {
+  color: #3b3b3b;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+section#contact .card {
+  margin: 1rem 0;
+  background: rgba(255, 255, 255, 0.76);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section#contact .card.c-card {
+  background: #fca915;
+}
+
+section#contact .icons {
+  padding-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+}
